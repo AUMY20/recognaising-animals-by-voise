@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    </head>
+
+    <body>
+        <center>
+
+        <div>
+        <h1>Recognaising animals by sound</h1>
+        <p>NOTE:play different sounds like barking, roaing, mewing ...etc</p>
+        </div>
+        <br>
+        <h3>I can hear: </h3><span id="animal"></span>
+        <h3>Accuracy: </h3><span id="percentage"></span>
+        <br>
+        <br>
+        <button onclick="identify()">recognise animal</button>
+        <br>
+        <br>
+        <br>
+        <img id="animal_pic" src="ear.png">
+        </center>
+    </body>
+</html>
